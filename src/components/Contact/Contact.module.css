@@ -1,0 +1,14 @@
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+    }
+}
+
+.deletedBtn {
+    
+}
