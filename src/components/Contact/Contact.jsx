@@ -3,7 +3,7 @@ import { BsFillPersonFill, BsTelephoneFill } from 'react-icons/bs';
 import PropTypes from 'prop-types';
 import CustomButton from '../CustomButton/CustomButton';
 import { useDispatch } from 'react-redux';
-import { deleteContact } from '../../redux/contactsSlice';
+import { deleteContact } from '../../redux/contactsOps';
 
 const Contact = ({ id, name, number }) => {
   const dispatch = useDispatch();
